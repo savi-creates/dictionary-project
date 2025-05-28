@@ -1,3 +1,11 @@
+body {
+  background: rgb(248, 203, 248);
+}
+
+a {
+  color: #532b83;
+}
+
 .App-logo {
   max-width: 300px;
   display: block;

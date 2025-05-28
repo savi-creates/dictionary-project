@@ -1,5 +1,6 @@
 import React from "react";
 import Meaning from "./Meaning";
+import "./Results.css";
 
 export default function Results(props) {
   if (props.results) {
@@ -9,11 +10,13 @@ export default function Results(props) {
 
     return (
       <div className="Results">
-        <h2>{props.results.word}</h2>
-        {props.results.phonetic && (
-          <p className="phonetic">/{props.results.phonetic}/</p>
-        )}
-        {firstMeaning && <Meaning meaning={firstMeaning} />}
+        <section>
+          <h2>{props.results.word}</h2>
+          {props.results.phonetic && (
+            <p className="Phonetic">/{props.results.phonetic}/</p>
+          )}
+        </section>
+        <section>{firstMeaning && <Meaning meaning={firstMeaning} />}</section>
       </div>
     );
   } else {
