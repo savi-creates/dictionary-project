@@ -1,5 +1,5 @@
 body {
-  background: rgb(248, 203, 248);
+  background: #f9f7fe;
 }
 
 a {
@@ -13,7 +13,8 @@ a {
 }
 
 .App-header {
-  margin: -65px 0;
+  margin-top: -65px;
+  margin-bottom: -95px;
 }
 
 .App-footer {
