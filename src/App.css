@@ -6,8 +6,13 @@ a {
   color: #532b83;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App-logo {
-  max-width: 300px;
+  max-width: 350px;
   display: block;
   margin: 0 auto;
 }
@@ -21,4 +26,13 @@ a {
   text-align: center;
   font-size: 14px;
   margin: 30px 0;
+}
+
+.App-footer a {
+  text-decoration: none;
+}
+
+.App-footer:hover a {
+  color: #7645b3;
+  text-decoration: underline;
 }

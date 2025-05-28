@@ -10,9 +10,26 @@ function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="hello" />
+          <Dictionary defaultKeyword="purple" />
         </main>
-        <footer className="App-footer">Coded by Savannah Andresson</footer>
+        <footer className="App-footer">
+          Coded by{" "}
+          <a
+            href="https://github.com/savi-creates"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Savannah Andresson
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/savi-creates/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );
